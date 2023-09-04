@@ -1,0 +1,44 @@
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  flex: 1;
+}
+
+.header-right {
+  flex: 1;
+  text-align: right;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+}
+
+.account button {
+  margin-left: 10px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.content-left {
+  grid-column: 1;
+  background-color: #eee;
+  padding: 20px;
+}
+
+.content-right {
+  grid-column: 2;
+  background-color: #ddd;
+  padding: 20px;
+}
